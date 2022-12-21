@@ -3,4 +3,4 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "govardhanr992.com" 
-COPY .*/*.war /usr/local/tomcat/webapps
+COPY /var/lib/jenkins/workspace/application-docker/webapp/target/webapp.war /usr/local/tomcat/webapps
